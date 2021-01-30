@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*navbar*/
+.logo{
+    height: 60px;
+    width: auto;
+}
+
+.letras{
+    height: 60px;
+    width: auto;
+    margin-right: 20px;
+}
+
+.navbar-background{
+    background-color: #D98D30;
+}
+
+.nav-item{
+    background-color: #D98D30;
+    box-sizing: border-box;
+    /* width: 100%;    */
+}
+
+.nav-item:hover{
+    background-color: #D99B29;
+}
+
+.nav-link{
+    color: white !important;
+    /* margin-inline: 25px !important; */
+    /* padding-bottom: 20px;  */
+    /* margin-top: 15px; */
+    font-size: 15px;
+}
+
+/*institute info*/
+.container-introduction{
+    column-count: 2;
+}
+
+.container-text{
+    display: flex;
+    justify-content: right;
+
+}
+
+.institute-img{
+    display: flex;
+    justify-items: center;
+}
+
+/*end new navbar*/
+
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+    }
+}
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+    height: 32rem;
+}
+.carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+}
+
+#h1-carousel{
+    text-shadow: 1px 1px 1px black;
+}
+
+/*welcome box*/
+.welcome-box{
+    display:flex;
+    justify-content: center;
+}
+
+.mb-0{
+    text-align: justify;
+
+}
+
+.welcome-image{
+    width: 320px;
+    height: 200px;
+}
+
+.button-welcome{
+    width: 150px;
+    color: white;
+    border: 1 px solid #BF522A;
+    border-color:#BF522A;
+    border-radius: 5%;
+    background: #BF522A;
+    padding: 10px 18px;
+    font-size: 20px;
+    font-family: "monserrat";
+    margin-top: 5px;
+
+}
+.button-welcome:hover{
+    background-color: #732222;
+    border-color: #732222;
+}
+/*end of welcome box*/
+
+/*hr*/
+.hr{
+    width: auto;
+
+}
+
+.text-introduction-container{
+    margin-top: 0;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    margin-right: 45px;
+}
+
+.text-intro{
+    text-align: justify;
+    margin: 20px 20px 20px 20px ;
+}
+
+.h3-intro{
+    display: flex;
+    justify-content: center;
+    padding: 5px 5px 5px 5px;
+    color: #BF522A;
+
+
+}
+
+#img-diosa{
+    /* display: flex;
+    align-content: center;
+    padding-bottom: 55px;
+    padding-top: 30px; */
+    border-radius: 8px;
+
+}
+
+.institute-img{
+   border-radius: 20px;
+}
